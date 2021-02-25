@@ -63,9 +63,15 @@ while True:
     wynik3 = 3.14 * int(r)**2
     print('wynik: ' + '\033[32m' + str(wynik3) + '\033[39m')
     time.sleep(1)
-    print('czy chcesz zamknąć program? t/n')
+    print('czy chcesz zamknąć program?')
+    time.sleep(0.5)
+    print('jeśli tak wpisz 1')
+    time.sleep(0.5)
+    print('jeśli nie wpisz 2')
     zamykanie_3 = input()
-    if zamykanie_3 == str("t"):
+    if zamykanie_3 == 1:
       break
-    elif zamykanie_3 == str("n"):
+    elif zamykanie_3 == 2:
       continue
+    else:
+      break
