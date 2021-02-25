@@ -28,12 +28,19 @@ while True:
     time.sleep(2)
     print('wynik: ''\033[32m' + str(wynik) + '\033[39m')
     time.sleep(1)
-    print('czy chcesz zamknąć program? t/n')
+    print('czy chcesz zamknąć program?')
+    time.sleep(0.5)
+    print('jeśli tak wpisz 1)
+    time.sleep(0.5)
+    print('jeśli nie wpisz 2)
     zamykanie_1 = input()
-    if zamykanie_1 == "t":
+    if zamykanie_1 == 1:
       break
-    elif zamykanie_1 == "n":
+    elif zamykanie_1 == 2:
       continue
+    else:
+          print('nie to miałeś napisać ale ok')
+          break
   elif int(WYBOR) == 2:
     print('wybrałeś/wybrałaś obliczator pola trapezu')
     time.sleep(2)
@@ -48,12 +55,19 @@ while True:
     time.sleep(2)
     print('wynik: ''\033[32m' + str(wynik2) + '\033[39m')
     time.sleep(1)
-    print('czy chcesz zamknąć program? t/n')
+    print('czy chcesz zamknąć program?')
+    time.sleep(0.5)
+    print('jeśli tak wpisz 1')
+    time.sleep(0.5)
+    print('jeśli nie wpisz 2')
     zamykanie_2 = input()
-    if zamykanie_2 == 't':
+    if zamykanie_2 == 1:
       break
-    elif zamykanie_2 == "n":
+    elif zamykanie_2 == 2:
       continue
+    else:
+      print('nie to miałeś napisać ale ok')
+      break
   elif int(WYBOR) == 3:
     print('wybrałeś/wybrałaś obliczator pola koła')
     time.sleep(2)
@@ -74,4 +88,5 @@ while True:
     elif zamykanie_3 == 2:
       continue
     else:
+      print('nie to miałeś napisać ale ok')
       break
