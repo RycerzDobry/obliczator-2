@@ -65,6 +65,8 @@ while True:
     time.sleep(1)
     print('czy chcesz zamknąć program? t/n')
     zamykanie_3 = input()
+    t = 't'
+    n = 'n'
     if zamykanie_3 == "t":
       break
     elif zamykanie_3 == "n":
