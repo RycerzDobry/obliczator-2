@@ -19,12 +19,10 @@ while True:
     time.sleep(2)
     print('\033[31m' + 'wczytywanie kodow atomowych...' + '\033[39m')
     time.sleep(3)
-    a = input('podaj bok a: ')
-    time.sleep(0.5)
-    b = input('podaj bok b: ')
+    a = input('podaj bok: ')
     time.sleep(0.5)
     h = input('podaj wysokosc: ')
-    wynik = (int(a) + int(b)) * int(h) / 2
+    wynik = int(a) * int(h) / 2
     time.sleep(2)
     print('wynik: ''\033[32m' + str(wynik) + '\033[39m')
     time.sleep(1)
