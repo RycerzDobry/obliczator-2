@@ -28,11 +28,11 @@ while True:
     time.sleep(2)
     print('wynik: ''\033[32m' + str(wynik) + '\033[39m')
     time.sleep(1)
-    print('czy chcesz zamknac program?')
+    print('czy chcesz zamknąć program?')
     time.sleep(0.5)
-    print('jesli tak wpisz 1)
+    print('jeśli tak wpisz 1')
     time.sleep(0.5)
-    print('jesli nie wpisz 2)
+    print('jeśli nie wpisz 2')
     zamykanie_1 = input()
     if zamykanie_1 == 1:
       break
@@ -55,18 +55,18 @@ while True:
     time.sleep(2)
     print('wynik: ''\033[32m' + str(wynik2) + '\033[39m')
     time.sleep(1)
-    print('czy chcesz zamknac program?')
+    print('czy chcesz zamknąć program?')
     time.sleep(0.5)
-    print('jesli tak wpisz 1')
+    print('jeśli tak wpisz 1')
     time.sleep(0.5)
-    print('jesli nie wpisz 2')
+    print('jeśli nie wpisz 2')
     zamykanie_2 = input()
     if zamykanie_2 == 1:
       break
     elif zamykanie_2 == 2:
       continue
     else:
-      print('nie to miales napisac ale ok')
+      print('nie to miałeś napisać ale ok')
       break
   elif int(WYBOR) == 3:
     print('wybrales/wybralas obliczator pola kola')
