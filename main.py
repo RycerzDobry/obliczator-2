@@ -13,8 +13,8 @@ while True:
   time.sleep(0.25)
   print('aby obliczyć pole koła wpisz 3')
   time.sleep(0.25)
-  WYBÓR = input('TWÓJ WYBÓR: ')
-  if int(WYBÓR) == 1:
+  WYBOR = input('TWÓJ WYBÓR: ')
+  if int(WYBOR) == 1:
     print('wybrałeś/wybrałaś obliczator pola trójkąta')
     time.sleep(2)
     print('\033[31m' + 'wczytywanie kodów atomowych...' + '\033[39m')
@@ -34,7 +34,7 @@ while True:
       break
     elif zamykanie_1 == "n":
       continue
-  elif int(WYBÓR) == 2:
+  elif int(WYBOR) == 2:
     print('wybrałeś/wybrałaś obliczator pola trapezu')
     time.sleep(2)
     print('\033[31m' + 'wczytywanie kodów atomowych...' + '\033[39m')
@@ -54,7 +54,7 @@ while True:
       break
     elif zamykanie_2 == "n":
       continue
-  elif int(WYBÓR) == 3:
+  elif int(WYBOR) == 3:
     print('wybrałeś/wybrałaś obliczator pola koła')
     time.sleep(2)
     print('\033[31m' + 'wczytywanie kodów atomowych...' + '\033[39m')
